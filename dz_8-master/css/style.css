@@ -1,0 +1,629 @@
+@font-face {
+    font-family: '20 Kopeek';
+    src: url(../fonts/20Kopeek-Book.eot);
+    src: url(../fonts/20Kopeek-Book.eot?#iefix) format('embedded-opentype'), url(../fonts/20Kopeek-Book.woff2) format('woff2'), url(../fonts/20Kopeek-Book.woff) format('woff'), url(../fonts/20Kopeek-Book.ttf) format('truetype'), url(../fonts/20Kopeek-Book.svg#20Kopeek-Book) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: '20 Kopeek';
+    src: url(../fonts/20Kopeek.eot);
+    src: url(../fonts/20Kopeek.eot?#iefix) format('embedded-opentype'), url(../fonts/20Kopeek.woff2) format('woff2'), url(../fonts/20Kopeek.woff) format('woff'), url(../fonts/20Kopeek.ttf) format('truetype'), url(../fonts/20Kopeek.svg#20Kopeek) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+section.main_banner {
+    background-image: url(../images/4.jpg);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+section.begin {
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+}
+li {
+    list-style-type: none;
+}
+.name {
+    background-image: url(../images/09.jpg);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+
+}
+.must {
+    background-image: url(../images/08.jpg);
+    position: center;
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+}
+.gost {
+    background-image: url(../images/07.jpg);
+    position: center;
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+}
+.hr {
+    display: inline-flex;
+    margin-top: 32px;
+}
+a.logo {
+    margin-left: 285px;
+}
+.w {
+    font-size: 15px;
+    margin-left: 22px;
+    color: white;
+    font-family: '20 Kopeek';
+}
+.r {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 522px;
+    color: white;
+    height: 2vh;
+    padding: 7px 27px 7px 33px;
+}
+.facebook {
+    margin-left: 50px;
+}
+.instagram {
+    margin-left: 50px;
+}
+h1 {
+    font-size: 55px;
+    margin-left: -1200px;
+    margin-top: 269px;
+    font-family: '20 Kopeek';
+}
+h4 {
+    font-size: 34px;
+    margin-left: -1200px;
+    margin-top: 30px;
+    font-family: '20 Kopeek';
+}
+.btn {
+    font-size: 18px;
+    margin-left: -1200px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    color: black;
+    text-decoration: none;
+    height: 2vh;
+    padding: 23px 47px 23px 47px;
+    font-family: '20 Kopeek';
+    margin-top: -20px;
+    animation: pulse 2s infinite;
+}
+.bot {
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: black;
+    height: 2vh;
+    padding: 23px 47px 23px 47px;
+    text-decoration: none;
+    background: white;
+    animation: pulse 2s infinite;
+}
+.a {
+    margin-top: 565px;
+}
+.qq {
+    font-size: 38px;
+    margin-top: 70px;
+    font-family: '20 Kopeek';
+    margin-left: 285px;
+}
+.ab {
+    margin-left: 285px;
+}
+.sd {
+    display: inline-flex;
+    padding-left: 285px;
+    padding-right: 285px;
+}
+.ty {
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: '20 Kopeek';
+}
+.qe {
+    font-size: 55px;
+    margin-top: 150px;
+    margin-left: 285px;
+    font-family: '20 Kopeek';
+}
+.main {
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 285px;
+    font-size: 55px;
+    font-family: '20 Kopeek';
+}
+.as {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 67px;
+}
+.www {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 28px;
+}
+.ww {
+    font-size: 18px;
+}
+.ax {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 28px;
+}
+.az {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 43px;
+}
+.av {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 90px;
+}
+.tt {
+    padding-left: 30px;
+    font-size: 18px;
+    display: inline-flex;
+    margin-left: 283px;
+    font-family: '20 Kopeek';
+}
+.zz {
+    margin-left: 772px;
+    font-size: 38px;
+    margin-top: 120px;
+}
+.cc {
+    margin-left: 85px;
+    font-size: 38px;
+}
+.nn {
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 13px 11px 11px;
+    background: #2B59C3;
+    height: 8vh;
+    margin-left: -387px;
+    margin-top: 290px;
+    display: flex;
+    font-family: '20 Kopeek';
+}
+.zb {
+    font-size: 23px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding-left: 14px;
+    padding-right: 39px;
+    padding-top: 11px;
+    background: #2B59C3;
+    height: 8vh;
+    margin-left: -14px;
+    display: flex;
+    font-family: '20 Kopeek';
+}
+.zi {
+    font-size: 18px;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    padding-left: 14px;
+    padding-right: 39px;
+    margin-top: -47px;
+    background: #2B59C3;
+    height: 17vh;
+    margin-left: -14px;
+    display: flex;
+    margin-bottom: 18px;
+    font-family: '20 Kopeek';
+}
+.qs {
+    font-size: 38px;
+    margin-left: 818px;
+    margin-top: 120px;
+    font-family: '20 Kopeek';
+}
+.mm {
+    margin-left: 285px;
+    font-size: 26px;
+    margin-top: 11px;
+    margin-bottom: 27px;
+    font-family: '20 Kopeek';
+}
+.qo {
+    margin-left: 285px;
+    font-size: 38px;
+    margin-top: 77px;
+    font-family: '20 Kopeek';
+}
+form {
+    display: inline-flex;
+    position: relative;
+    margin-left: 40px;
+    padding-left: 215px;
+    padding-right: 608px;
+}
+.gg {
+    font-size: 18px;
+    margin-left: 165px;
+    margin-top: 47px;
+    font-family: '20 Kopeek';
+}
+.gb {
+    color: #2B59C3;
+    font-size: 18px;
+    font-family: '20 Kopeek';
+    text-decoration: none;
+}
+input {
+    margin-top: 10px;
+    width: 350px;
+    height: 71px;
+    border-radius: 10px;
+}
+.type_input {
+    font-size: 18px;
+    margin-left: 30px;
+    padding-left: 29px;
+    font-family: '20 Kopeek';
+}
+button {
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+    width: 228px;
+    height: 71px;
+    background: #2B59C3;
+    margin-left: 860px;
+    position: absolute;
+    margin-top: 27px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 300px 300px 300px rgba(204,204,204, 204);
+    animation: pulse 3s infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+.submit {
+    margin-top: 27px;
+    font-family: '20 Kopeek';
+}
+.ak {
+    margin-left: 145px;
+    display: inline-flex;
+    padding-bottom: 100px;
+    position: relative;
+    margin-top: -30px;
+}
+.typ_input {
+    width: 15px;
+    margin-left: 140px;
+    margin-top: 21px;
+    position: absolute;
+}
+.tyyp_input {
+    width: 15px;
+    margin-left: -710px;
+    margin-top: 21px;
+    position: absolute;
+}
+button:hover {
+    background: #f73;
+    color: yellow;
+    animation: none;
+}
+.bot:hover {
+    background: aqua;
+    color: darkorchid;
+}
+.btn:hover {
+    background: red;
+    color: greenyellow;
+}
+.mai {
+    display: inline-flex;
+    margin-top: 54px;
+    margin-left: 285px;
+    font-size: 18px;
+    font-family: '20 Kopeek';
+}
+.aa {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.dd{
+    width: 54px;
+    height: 77px;
+    padding-right: 312px;
+    padding-bottom: 23px;
+}
+.mx {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    margin-right: 30px;
+}
+.aff {
+    position: relative;
+    display: inline-flex;
+    margin-top: 165px;
+    margin-left: 500px;
+    font-size: 38px;
+    font-family: '20 Kopeek';
+    margin-right: 75px;
+}
+.ap {
+    margin-top: 7px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.ao {
+    margin-top: 7px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 155px;
+}
+.al {
+    margin-top: 7px;
+    font-size: 18px;
+    margin-left: 85px;
+    margin-right: 150px;
+}
+.ab {
+    font-size: 18px;
+    margin-left: 43px;
+    margin-right: 5px;
+}
+.ai {
+    font-size: 18px;
+    margin-left: 25px;
+}
+.alu {
+    font-size: 18px;
+    margin-left: 75px;
+    margin-right: 152px;
+}
+.axx {
+    font-size: 18px;
+    margin-left: 38px;
+}
+.abb {
+    font-size: 18px;
+    margin-left: 38px;
+    margin-right: 52px;
+}
+.axs {
+    font-size: 18px;
+    margin-left: 58px;
+}
+.mmm {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    margin-right: 30px;
+    background: #2B59C3;
+    color: white;
+    padding: 92px 15px 79px 10px;
+    margin-top: -78px;
+    border-radius: 15px;
+    text-align: left;
+}
+.kk {
+    color: #2B59C3;
+    border-radius: 10px;
+    border: #2B59C3 5px solid;
+    text-align: center;
+    margin-left: 120px;
+    position: absolute;
+    padding:  19px 75px 1040px 10px;
+    margin-top: -20px;
+}
+.kkp {
+    font-size: 38px;
+    margin-left: 458px;
+}
+.ain{
+    display: flex;
+    margin-top: 150px;
+    font-size: 55px;
+    font-family: '20 Kopeek';
+    background-image: url(../images/sumka.jpg);
+    color: white;
+    background-size: cover;
+    height: 100vh;
+}
+.hyh {
+    margin-top: 7px;
+    font-size: 18px;
+    margin-left: -10px;
+}
+.qet {
+    font-size: 55px;
+    margin-top: 432px;
+    margin-left: 285px;
+    font-family: '20 Kopeek';
+    color: white;
+    position: absolute;
+}
+.sss{
+    margin-top: 487px;
+    margin-left: 285px;
+    display: inline-flex;
+    margin-right: 28px;
+}
+.qi {
+    margin-left: 285px;
+    font-size: 38px;
+    margin-top: 150px;
+    font-family: '20 Kopeek';
+}
+.jj{
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+    padding-left: 215px;
+    padding-right: 608px;
+    margin-top: 30px;
+}
+.sub {
+
+    font-family: '20 Kopeek';
+    margin-left: 285px;
+    margin-top: 71px;
+}
+.af {
+    margin-left: -285px;
+    display: inline-flex;
+    position: relative;
+    margin-top: 10px;
+}
+.ga {
+    font-size: 18px;
+    margin-left: 312px;
+    margin-top: 14px;
+    font-family: '20 Kopeek';
+}
+.wwi {
+    font-size: 26px;
+    margin-top: -290px;
+    margin-left: 775px;
+    position: absolute;
+    font-family: '20 Kopeek';
+}
+.wwk {
+    font-size: 38px;
+    font-family: '20 Kopeek';
+}
+.aaa{
+    display: inline-flex;
+    margin-top: 20px;
+    font-family: '20 Kopeek';
+    color: white;
+}
+.iii{
+    font-size: 38px;
+    margin-top: 285px;
+    margin-left: 285px;
+    position: absolute;
+    font-family: '20 Kopeek';
+}
+.mmx {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    background: #2B59C3;
+    color: white;
+    padding: 6px 84px 15px 6px ;
+    margin-top: 302px;
+    border-radius: 15px;
+    text-align: left;
+    position: absolute;
+    margin-left: -15px;
+}
+.app {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    margin-right: 30px;
+    background: #2B59C3;
+    color: white;
+    padding: 6px 84px 15px 6px;
+    margin-top: 302px;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 780px;
+    position: absolute;
+
+}
+.ahh {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    margin-right: 30px;
+    background: #2B59C3;
+    color: white;
+    padding: 6px 84px 15px 6px;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 1175px;
+    position: absolute;
+    margin-top: 302px;
+}
+.abc {
+    font-size: 26px;
+    font-family: '20 Kopeek';
+    margin-right: 300px;
+    background: #2B59C3;
+    color: white;
+    padding: 6px 84px 15px 6px ;
+    margin-top: 302px;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 320px;
+    position: absolute;
+}
+.yyx {
+    font-size: 18px;
+    font-family: '20 Kopeek';
+    margin-left: 285px;
+    margin-top: 606px;
+    position: absolute;
+    padding-bottom: 50px;
+}
+.santa {
+    position: fixed;
+    bottom: 10px;
+    right: -500px;
+}
+#rotator li {
+    position: absolute;
+    background-size: 100%;
+    display: block;
+    width: 6077px;
+    height: 100vh;
+
+
+}
+
+
